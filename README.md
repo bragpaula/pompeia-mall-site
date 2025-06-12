@@ -52,5 +52,3 @@ Este projeto está disponível online via **GitHub Pages**:
 
 Desenvolvido por [Paula Braga](https://www.instagram.com/brgpaula.dev)
 Entre em contato para sugestões ou colaborações!
-
----
