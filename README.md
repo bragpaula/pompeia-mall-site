@@ -47,10 +47,9 @@ Este projeto está disponível online via **GitHub Pages**:
    cd pompeia-mall-site
    ```
 3. Abra o arquivo `index.html` no navegador.
+````
 
 ## 💬 Contato
 
 Desenvolvido por [Paula Braga](https://www.instagram.com/brgpaula.dev/)
 Entre em contato para sugestões ou colaborações!
-
----
