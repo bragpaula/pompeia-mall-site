@@ -50,5 +50,7 @@ Este projeto está disponível online via **GitHub Pages**:
 
 ## 💬 Contato
 
-Desenvolvido por [Paula Braga](https://www.instagram.com/brgpaula.dev)
+Desenvolvido por [Paula Braga](https://www.instagram.com/brgpaula.dev/)
 Entre em contato para sugestões ou colaborações!
+
+---
