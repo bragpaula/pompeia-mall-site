@@ -88,10 +88,24 @@ header{
 
 /* seja um lojista */
 
+h2{
+    color: #0A3F7B;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h2 .highlight{
+    font-weight: 700;
+}
+.lojista .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px 0;
+}
 .lojista{
     display: flex;
     justify-content: center;
-    padding: 100px 0;
 }
 
 /* diferenciais */
