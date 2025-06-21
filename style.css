@@ -382,7 +382,7 @@ footer .container{
     gap: 10px;
   }
   h2{
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* SEJA UM LOJISTA */
@@ -473,5 +473,8 @@ footer .container{
   }
   .footer-bottom p{
     font-size: 8px;
+  }
+  .hero{
+    height: 780px;
   }
 }
