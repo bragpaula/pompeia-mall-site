@@ -107,6 +107,9 @@ header{
     display: flex;
     justify-content: center;
 }
+.banner-mobile{
+    display: none;
+}
 
 /* diferenciais */
 
@@ -131,6 +134,7 @@ header{
     font-weight: 400;
     text-transform: uppercase;
     margin: 0;
+    width: 186px;
 }
 .diferenciais .tags span{
     color: #F5F5F5;
@@ -354,177 +358,120 @@ footer .container{
 }
 
 
+/* MEDIA QUERIES */
 
-@media (max-width: 480px) {
-  /* CONTAINER GERAL */
-  .container {
-    width: 90%;
-    padding: 0 10px;
+@media (max-width: 500px) {
+  .container{
+    width: 330px;
   }
-
-  /* HEADER */
-  header {
-    padding: 20px 0;
+  .header-content nav{
+    display: none;
   }
-
-  .header-content {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+  .hero-overlay p{
+    font-size: 14px;
   }
-
-  .nav-menu {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .nav-menu a {
-    font-size: 1rem;
-  }
-
-  .btn-contato {
-    width: 100%;
-    text-align: center;
-  }
-
-  /* HERO */
-  .hero {
-    padding: 60px 10px;
-    height: auto;
-    background-position: center;
-    text-align: center;
-  }
-
-  .hero-overlay img {
-    width: 80%;
-    max-width: 250px;
-  }
-
-  .hero-overlay p {
-    font-size: 1.2rem;
-    margin-top: 20px;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 30px;
-  }
-
-  .hero-buttons .btn {
-    width: 100%;
+  .hero-overlay img{
     max-width: 280px;
-    font-size: 1rem;
+  }
+  .hero-buttons .btn{
+    width: 160px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .hero-overlay .hero-buttons{
+    gap: 10px;
+  }
+  h2{
+    font-size: 14px;
   }
 
   /* SEJA UM LOJISTA */
-  .lojista .container {
-    text-align: center;
-    padding: 40px 0;
+  .banner-desk{
+    display: none;
   }
-
-  .lojista h2 {
-    font-size: 1.5rem;
+  .banner-mobile{
+    display: block;
   }
-
-  .lojista img {
-    width: 100%;
-    max-width: 100%;
-    margin-top: 20px;
+  .lojista .container{
+    padding: 50px 0;
   }
 
   /* DIFERENCIAIS */
-  .diferenciais {
-    padding: 40px 0;
-  }
 
-  .diferenciais h2 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .tags {
+  .diferenciais .container{
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+  .diferenciais h2{
+    font-size: 16px;
+    width: 330px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .diferenciais .tags span{
+    font-size: 9px;
+    padding: 6px 12px;
+  }
+  .diferenciais .tags{
+    width: 600px;
     gap: 10px;
-    margin-top: 30px;
+    justify-content: flex-start;
   }
-
-  .tags span {
-    font-size: 1rem;
-    padding: 10px 15px;
-    text-align: center;
-    width: 100%;
+  .scroll{
+    overflow-x: scroll;
+    width: 330px;
   }
-
-  /* LOJAS */
-  .lojas .container {
-    padding: 40px 0;
+  
+  .grid-lojas img{
+    width: 160px;
+    height: 125px;
+    padding: 15px 15px;
+    filter: grayscale(0);
   }
-
-  .lojas h2 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .grid-lojas {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin-top: 30px;
-  }
-
-  .grid-lojas img {
-    width: 80%;
-    max-width: 250px;
-  }
-
-  /* MAPA */
-  .mapa iframe {
-    width: 100%;
-    height: 250px;
-    margin-top: 20px;
-  }
-
-  /* FOOTER */
-  footer {
-    padding: 40px 0;
-  }
-
-  .footer-content .cima {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    gap: 30px;
-  }
-
-  .footer-menus nav {
-    flex-direction: column;
+  .grid-lojas{
+    justify-content: center;
     gap: 10px;
   }
-
-  .social h3 {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+  .lojas .container{
+    width: 330px;
   }
-
-  .icons {
-    gap: 15px;
+  .mapa iframe{
+    width: 330px;
+    height: 280px;
   }
-
-  .meio {
+  .mapa{
+    display: flex;
+    justify-content: center;
+  }
+  .mapa .container{
+    padding: 50px 0;
+  }
+  
+  footer .container{
+    width: 330px;
+  }
+  .footer-menus a{
+    font-size: 10px;
+  }
+  .footer-menus nav{
+    gap: 10px;
+  }
+  .social h3{
+    font-size: 14px;
+  }
+  .footer-info h3{
+    font-size: 14px;
+  }
+  .footer-info p{
+    font-size: 12px;
+  }
+  footer .meio{
     flex-direction: column;
-    margin-top: 30px;
+    gap: 40px;
+    align-items: flex-start;
   }
-
-  .footer-info p {
-    font-size: 0.95rem;
-  }
-
-  .footer-bottom {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 0.9rem;
+  .footer-bottom p{
+    font-size: 8px;
   }
 }
